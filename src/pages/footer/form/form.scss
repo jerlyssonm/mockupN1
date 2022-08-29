@@ -1,0 +1,33 @@
+.container-form{
+  margin-top: 5em;
+  width: 100%;
+  background: #2F1893;
+  .box-form{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;    
+    padding: 2em;
+    justify-content: space-between;
+    div{
+      width: 30%;
+      color: #FFF;
+    }
+    form{
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      input{
+        border-radius: 50px;
+        height: 2em;
+        padding: 0 2em;
+      }
+      input[type=submit]{
+        cursor: pointer;
+        height: 2.5em;
+        background-color: #25DAC5;
+      }
+    }
+  }
+
+}

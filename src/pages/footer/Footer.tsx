@@ -5,10 +5,7 @@ function Footer() {
     return (
         <footer>
             <Form />   
-            <FooterPage />
-            <div>
-                <p>Agência N1 - Todos os Direitos Reservados</p>
-            </div>         
+            <FooterPage />        
         </footer>
     )
 }

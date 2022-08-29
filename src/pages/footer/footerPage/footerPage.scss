@@ -1,0 +1,96 @@
+.footer-box{
+  width: 80%;
+  margin: 3em auto;
+  display: flex;
+  justify-content: space-between;
+  .about-agency{
+    background-color: aquamarine;
+    width: 22%;
+  }
+  .all-infors{
+    // background-color: aqua;
+    width: 75%;
+    .infors-n1{
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 1.5em;
+      .infors{
+        color: #1E0E62;
+        font-size: 16px;
+        width: 33%;
+        // justify-conte
+        p{
+          margin-bottom: .5em;
+          text-align: left;
+          font-size: 12px;
+          color: #8F8F9F;
+          cursor: pointer;
+        }
+      }
+    }
+    .pay-security{
+      display: flex;
+      // justify-content: space-between;
+      .box-pay{
+        width: 30%;
+        h2{
+        color: #1E0E62;
+        font-size: 16px;
+        }
+        div{
+          display: flex;
+          justify-content: space-between;
+          .img-cards{
+            width: 40px;
+            height: 30px;
+            border-radius: 5px;
+            img{
+              width: 100%;
+            }
+          }
+        }
+      }
+      .box-security{
+        width: 20%;
+        margin-left: 1.5em;
+        h2{
+        color: #1E0E62;
+        font-size: 16px;
+        }
+        div{
+          width: 100px;
+          img{
+            width: 100%;
+          }
+        }
+      }
+    }
+    .copyright{
+      width: 48%;
+      display: flex;
+      align-items: flex-end;
+      // justify-content: space-between;
+      p{
+        margin-right: .5em;
+        color: #8F8F9F;
+        font-size: 10px;
+      }
+      .logo{
+        margin-right: 2em;
+        color: #482BE7;
+        font-size: 20px;
+        display: flex;
+        span{
+          font-size: 10px;
+          color: #E93A7D;
+        }
+      }
+      h4{
+        color: #E71C4D;
+      }
+    }
+  }
+}
+p:last-child{
+  text-align: center;
+}
