@@ -1,3 +1,4 @@
+import { Icons } from '../../../assets/icons'
 import './footerPage.scss'
 
 function FooterPage() {
@@ -5,24 +6,28 @@ function FooterPage() {
     <>
       <div className='footer-box'>
         <div className='about-agency'>
-          <h3>agenciaN1</h3>
-          <div>
-            <span>face</span>
-            <span>twiter</span>
-            <span>insta</span>
-            <span>YT</span>
-            <span>TikTok</span>
+          <h4 className='logo'>agência<span>N1</span></h4>
+          <div className='box-icons'>
+            <span>{Icons.Face}</span>
+            <span>{Icons.Twiter}</span>
+            <span>{Icons.Insta}</span>
+            <span>{Icons.YouTube}</span>
+            <span>{Icons.TikTok}</span>
           </div>
-          <hr />
-          <div>
-            <span>icone</span>
-            11 99999-9999
+          <div className="contact-agency">
+            <div>
+              <span>{Icons.Phone}</span>
+              11 99999-9999
+            </div>
+            <div>
+              <span>{Icons.Email}</span>
+              contato@agencian1.com.br
+            </div>
           </div>
-          <div>
-            <span>icone</span>
-            contato@agencian1.com.br
-          </div>
-          <p>Seg. à Sex. das 09:00h às 18:00h
+          <p>
+            Seg. à Sex. das 09:00h às 18:00h
+          </p>
+          <p>
             Sábado das 10:00h às 14:00h
           </p>
         </div>
@@ -75,16 +80,16 @@ function FooterPage() {
               </div>
             </div>
             <div className='copyright'>
-                <p>created by </p>
-                <h4 className='logo'>agência<span>N1</span></h4>
-                <p>Powered by </p>
-                <h4>VTEX</h4>
+              <p>created by </p>
+              <h4 className='logo'>agência<span>N1</span></h4>
+              <p>Powered by </p>
+              <h4>VTEX</h4>
             </div>
           </div>
         </div>
 
       </div>
-      <p>Agência N1 - Todos os Direitos Reservados</p>
+      <p className='all-copyright'>Agência N1 - Todos os Direitos Reservados</p>
     </>
   )
 }

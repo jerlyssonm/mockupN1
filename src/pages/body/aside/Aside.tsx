@@ -8,25 +8,37 @@ function Aside() {
           <hr />
           <div className="like-galery">
             <div className='product-like'>
-              <div className="img">img</div>
+              <div className="img">
+                img
+                <span>20% OFF</span>
+              </div>
               <h5>nome do produto</h5>
               <p><span>R$ 190.00</span> R$ 150.00</p>
               <p>ou 3x de 50.00</p>
             </div>
             <div className='product-like'>
-              <div className="img">img</div>
+              <div className="img">
+                img
+                <span>20% OFF</span>
+              </div>
               <h5>nome do produto</h5>
               <p><span>R$ 190.00</span> R$ 150.00</p>
               <p>ou 3x de 50.00</p>
             </div>
             <div className='product-like'>
-              <div className="img">img</div>
+              <div className="img">
+                img
+                <span>20% OFF</span>
+              </div>
               <h5>nome do produto</h5>
               <p><span>R$ 190.00</span> R$ 150.00</p>
               <p>ou 3x de 50.00</p>
             </div>
             <div className='product-like'>
-              <div className="img">img</div>
+              <div className="img">
+                img
+                <span>20% OFF</span>
+              </div>
               <h5>nome do produto</h5>
               <p><span>R$ 190.00</span> R$ 150.00</p>
               <p>ou 3x de 50.00</p>

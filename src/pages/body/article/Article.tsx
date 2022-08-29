@@ -18,7 +18,10 @@ function Article() {
           <div>sub</div>
           <div>sub</div>
         </div>
-        <div className='large-img'>image Grande</div>
+        <div className='large-img'>
+          image Grande
+          <span>20% OFF</span>
+        </div>
       </div>
       <div className='detail-product'>
         <div className="desc">

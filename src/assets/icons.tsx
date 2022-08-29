@@ -8,7 +8,11 @@ import {
     AiOutlineMinus,
     FiFacebook,
     AiOutlineInstagram,
-    HiOutlineMail
+    HiOutlineMail,
+    FiTwitter,
+    ImYoutube,
+    FaTiktok,
+    BsTelephone
     
 } from "react-icons/all";
 
@@ -22,5 +26,9 @@ export const Icons = {
     Minus: <AiOutlineMinus />,
     Face: <FiFacebook />,
     Insta: <AiOutlineInstagram />,
-    Email: <HiOutlineMail />
+    Email: <HiOutlineMail />,
+    Twiter: <FiTwitter />,
+    YouTube: <ImYoutube />,
+    TikTok: <FaTiktok />,
+    Phone: <BsTelephone /> 
 }
