@@ -13,13 +13,21 @@ function Article() {
       </div>
       <div className='prod-imgs'>
         <div className='small-img'>
-          <div>sub</div>
-          <div>sub</div>
-          <div>sub</div>
-          <div>sub</div>
+          <div>
+            <img src="https://imgcentauro-a.akamaihd.net/900x900/97255931A2/tenis-adidas-lite-racer-3-0-masculino-img.jpg" alt="" />
+          </div>
+          <div>
+            <img src="https://imgcentauro-a.akamaihd.net/900x900/97255931A2/tenis-adidas-lite-racer-3-0-masculino-img.jpg" alt="" />
+          </div>
+          <div>
+            <img src="https://imgcentauro-a.akamaihd.net/900x900/97255931A2/tenis-adidas-lite-racer-3-0-masculino-img.jpg" alt="" />
+          </div>
+          <div>
+          <img src="https://imgcentauro-a.akamaihd.net/900x900/97255931A2/tenis-adidas-lite-racer-3-0-masculino-img.jpg" alt="" />
+          </div>
         </div>
         <div className='large-img'>
-          image Grande
+            <img src="https://imgcentauro-a.akamaihd.net/900x900/97255931A2/tenis-adidas-lite-racer-3-0-masculino-img.jpg" alt="" />
           <span>20% OFF</span>
         </div>
       </div>

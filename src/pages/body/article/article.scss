@@ -40,6 +40,9 @@ article {
         border-radius: 10px;
         height: 5em;
         width: 5em;
+        img{
+          width: 100%;
+        }
       }
     }
 
@@ -49,6 +52,9 @@ article {
       border-radius: 10px;
       max-height: 450px;
       position: relative;
+      img{
+        width: 100%;
+      }
       span{
         font-size: 12px;
         font-weight: bold;
